@@ -516,6 +516,19 @@ body {
     margin-bottom: 2rem;
 }
 
+.resume-embed {
+    margin-top: 3rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.resume-embed iframe {
+    width: 100%;
+    height: 1100px;
+    border: none;
+}
+
 /* ============================================================================
    Contact Section
    ============================================================================ */
@@ -649,7 +662,7 @@ body {
     }
 
     .resume-embed iframe {
-        height: 600px;
+        height: 900px;
     }
 }
 
@@ -712,7 +725,7 @@ body {
     }
 
     .resume-embed iframe {
-        height: 500px;
+        height: 700px;
     }
 
     .timeline-content h3 {
